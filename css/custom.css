@@ -1,0 +1,299 @@
+/* Header area */
+
+
+.header-icons{
+
+    padding-left: 5em;
+
+}
+.header-icons a{
+    padding-left: 1em;
+} 
+.header-icons a :hover{
+    color: white;
+}
+.header-btn button{
+    border: none;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.header-btn button :link{
+    text-decoration: none;
+}
+.header-title{
+    padding: 2em 0 0 16em;
+   
+}
+.header-btn{
+    padding-left: 6em;
+
+    padding-top: 0.4em;
+}
+
+    @media screen and (max-width: 991px) {
+    .header-icons {
+     
+padding-left: 0%;
+text-align: center;
+   
+  
+    }
+    .header-icons a{
+        padding-left: 0.5em;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .header1 h4 {
+  
+padding-left: 0%;
+margin-top: 0.5em;
+ text-align: center !important;
+       
+
+    
+   
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .header-btn {
+     
+    padding: 0%;
+    text-align: center;
+   
+ 
+    }
+    .header-btn button{
+        font-size: 8px;
+    }
+  }
+ 
+
+/* End Header area */
+/* STARt nav bar */
+
+.mynav  {
+font-size: 14.5px;
+padding-left: 4em;
+
+}
+.mynav :hover{
+ background-color: white;
+    border-radius: 1em;
+}
+
+
+/* END nav bar */
+/* Introduction */
+.intro-title h1{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top:2em ;
+    font-size: 30px;
+
+ 
+  
+}
+.intro-logo h1{
+    display: inline-block;
+}
+.intro-text p{
+    text-align: justify;
+    padding-top: 1em;
+    font-size: 13.5px;
+   
+}
+.intro-end{
+    height: 50px;
+}
+
+/* End Introduction */
+
+/* Population-area */
+.end-population{
+    height: 200px;
+}
+/* End Population-area */
+
+/* SERVICES AREA */
+.services-icon li{
+    background-color: white;
+    list-style-type: none;
+height: 10em;
+width: 20em;
+filter: brightness(1.15);
+box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 6%);
+cursor: pointer;
+margin:  auto;
+
+
+}
+
+
+ @media screen and (max-width: 991px) {
+        .services-icon li {
+         
+        
+
+     
+        /* display: flex;
+        justify-content: center; */
+     margin: 5px auto;
+        }
+      } 
+     
+    
+
+
+/* END SERVICES AREA */
+
+/* START PROJECT_AREA */
+
+
+.project-line{
+  
+    padding-left: 9px;
+    transform: translateY(-30px);
+}
+.project-provide li{
+    display: inline-block;
+    list-style-type: none;
+    width: 22em;
+    height: 5em;
+    /* margin-left: 8px; */
+ 
+}
+.project-line2{
+  
+    padding-left: 2px;
+    transform: translateY(-30px);}
+
+.transparent-line::after{
+        content: "";
+        width: 8em;
+        height: 2px;
+        background: whitesmoke;
+        display: inline-block;
+        
+       transform: translateY(4.5px);
+        
+       }
+       .project-provide li{
+         
+           
+           margin: 0 auto 1em 2em;
+       }
+       @media screen and (max-width: 796px) {
+        .project-provide li{
+         
+        
+        margin: 0 auto 8px auto !important;
+        
+      
+        }
+      }
+
+     
+
+/* END PROJECT_AREA */
+
+/* Gallery section   */
+.gallery-area li{
+    list-style-type: none;
+    text-align: center;
+ margin-left: 10px;
+ margin-top: 5em;
+ margin-bottom: 3em;
+ 
+}
+
+
+
+
+@media screen and (max-width: 766px) {
+    .gallery-area li {
+     
+    
+ /* text-align: center; */
+ margin-bottom: -4.5em;
+    
+  
+    }
+  }
+
+
+/*  End Gallery section */
+
+/* contact info */
+.contact-area{
+    height: auto;
+    background-color: rgba(0, 0, 0, 83%);
+}
+.contact-info{
+    margin-top: 1em;
+    color: whitesmoke;
+    line-height: 30px;
+      
+}
+.project-line3{
+  
+    padding-left: 2px;
+    transform: translateY(-30px);}
+
+.transparent-line1::after{
+        content: "";
+        width: 8em;
+        height: 2px;
+        background:rgba(245, 245, 245, 10%);
+        display: inline-block;
+        
+       transform: translateY(4.5px);
+        
+       }
+       .contact-line{
+           margin-top: 3em;
+       }
+       .contact-icons a{
+           margin-right: 1em;
+           color:cornflowerblue;
+       }
+       .contact-icons a :hover{
+           color:whitesmoke;
+       }
+       .contact3{
+           margin-top: 2.5em;
+       }
+       @media screen and (max-width: 766px) {
+        .contact-area {
+         
+   margin-top: 8em;
+        
+      
+        }
+      }
+
+/* End contact info */
+
+/* last part */
+.copyright{
+    height: 5.5em;
+    color: white;
+    font-size: 12px;
+    
+    
+}
+/* last part */
+.top{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    color: whit;
+}
+.topbtn{
+  position: fixed;
+  right: 1.5em;
+  bottom: 1.5em;
+  
+  
+}
+
